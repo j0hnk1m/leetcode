@@ -1,5 +1,8 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+        if s is None or len(s) == 0:
+            return 0
+        
         used = {}
         window_start = 0
         window_end = 0
