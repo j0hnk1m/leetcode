@@ -8,6 +8,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 3\. Longest Substring Without Repeating Characters  
 104\. Maximum Depth of Binary Tree
 136\. Single Number
+206\. Reverse Linked List
 344\. Reverse String
 388\. Longest Absolute File Path  
 412\. Fizz Buzz
