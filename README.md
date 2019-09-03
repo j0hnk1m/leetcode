@@ -12,6 +12,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 122\. Best Time to Buy and Sell Stock II  
 136\. Single Number  
 169\. Majority Element   
+171\. Excel Sheet Column Number  
 206\. Reverse Linked List  
 217\. Contains Duplicate  
 237\. Delete Node in a Linked List  
