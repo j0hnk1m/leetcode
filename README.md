@@ -19,6 +19,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 242\. Valid Anagram  
 283\. Move Zeroes  
 344\. Reverse String  
+387\. First Unique Character in a String  
 388\. Longest Absolute File Path  
 412\. Fizz Buzz  
 771\. Jewels and Stones  
