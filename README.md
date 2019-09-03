@@ -11,6 +11,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 104\. Maximum Depth of Binary Tree  
 108\. Convert Sorted Array to Binary Search Tree  
 122\. Best Time to Buy and Sell Stock II  
+125\. Valid Palindrome  
 136\. Single Number  
 169\. Majority Element   
 171\. Excel Sheet Column Number  
