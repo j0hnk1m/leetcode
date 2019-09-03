@@ -11,6 +11,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 136\. Single Number  
 169\. Majority Element   
 206\. Reverse Linked List  
+217\. Contains Duplicate  
 237\. Delete Node in a Linked List  
 242\. Valid Anagram  
 283\. Move Zeroes  
