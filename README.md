@@ -14,9 +14,10 @@ Problems can be found here: https://leetcode.com/problemset/all/
 169\. Majority Element   
 171\. Excel Sheet Column Number  
 206\. Reverse Linked List  
-217\. Contains Duplicate  
+217\. Contains Duplicate    
 237\. Delete Node in a Linked List  
 242\. Valid Anagram  
+268\. Missing Number  
 283\. Move Zeroes  
 344\. Reverse String  
 387\. First Unique Character in a String  
