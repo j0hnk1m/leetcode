@@ -11,6 +11,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 69\. Sqrt(x)  
 104\. Maximum Depth of Binary Tree  
 108\. Convert Sorted Array to Binary Search Tree
+118\. Pascal's Triangle  
 121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
 125\. Valid Palindrome  
