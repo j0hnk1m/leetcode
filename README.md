@@ -9,6 +9,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 13\. Roman to Integer   
 21\. Merge Two Sorted Lists  
 69\. Sqrt(x)  
+70\. Climbing Stairs  
 104\. Maximum Depth of Binary Tree  
 108\. Convert Sorted Array to Binary Search Tree
 118\. Pascal's Triangle  
