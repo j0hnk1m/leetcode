@@ -10,7 +10,8 @@ Problems can be found here: https://leetcode.com/problemset/all/
 21\. Merge Two Sorted Lists  
 69\. Sqrt(x)  
 104\. Maximum Depth of Binary Tree  
-108\. Convert Sorted Array to Binary Search Tree  
+108\. Convert Sorted Array to Binary Search Tree
+121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
 125\. Valid Palindrome  
 136\. Single Number  
