@@ -19,6 +19,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 169\. Majority Element   
 171\. Excel Sheet Column Number  
 189\. Rotate Array  
+202\. Happy Number  
 206\. Reverse Linked List  
 217\. Contains Duplicate    
 237\. Delete Node in a Linked List  
