@@ -6,6 +6,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 1\. Two Sum  
 2\. Add Two Numbers  
 3\. Longest Substring Without Repeating Characters  
+7\. Reverse Integer    
 13\. Roman to Integer   
 14\. Longest Common Prefix  
 20\. Valid Parentheses  
@@ -37,6 +38,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 191\. Number of 1 Bits  
 198\. House Robber  
 202\. Happy Number  
+204\. Count Primes  
 206\. Reverse Linked List  
 217\. Contains Duplicate    
 234\. Palindrome Linked List  
