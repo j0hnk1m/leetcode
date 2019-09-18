@@ -52,5 +52,6 @@ Problems can be found here: https://leetcode.com/problemset/all/
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path  
 412\. Fizz Buzz  
+482\. License Key Formatting  
 771\. Jewels and Stones  
 1108\. Defanging an IP Address  
