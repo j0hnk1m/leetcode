@@ -9,6 +9,4 @@ class Solution:
 				if not stack or brackets[stack.pop()] != i:
 					return False
 
-		if not stack:
-			return True
-		return False
+		return not stack
