@@ -53,5 +53,6 @@ Problems can be found here: https://leetcode.com/problemset/all/
 388\. Longest Absolute File Path  
 412\. Fizz Buzz  
 482\. License Key Formatting  
+753\. Cracking the Safe  
 771\. Jewels and Stones  
 1108\. Defanging an IP Address  
