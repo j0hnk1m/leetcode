@@ -6,6 +6,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 1\. Two Sum  
 2\. Add Two Numbers  
 3\. Longest Substring Without Repeating Characters  
+5\. Longest Palindromic Substring  
 7\. Reverse Integer    
 13\. Roman to Integer   
 14\. Longest Common Prefix  
@@ -20,6 +21,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 70\. Climbing Stairs  
 88\. Merge Sorted Array  
 101\. Symmetric Tree  
+102\. Binary Tree Level Order Traversal  
 104\. Maximum Depth of Binary Tree  
 108\. Convert Sorted Array to Binary Search Tree  
 118\. Pascal's Triangle  
