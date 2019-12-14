@@ -49,11 +49,9 @@ Problems can be found here: https://leetcode.com/problemset/all/
 268\. Missing Number  
 283\. Move Zeroes  
 326\. Power of Three  
-344\. Reverse String  
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
-388\. Longest Absolute File Path  
-412\. Fizz Buzz  
+388\. Longest Absolute File Path    
 482\. License Key Formatting  
 753\. Cracking the Safe  
 771\. Jewels and Stones  
