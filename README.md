@@ -12,12 +12,9 @@ Problems can be found here: https://leetcode.com/problemset/all/
 14\. Longest Common Prefix  
 20\. Valid Parentheses  
 21\. Merge Two Sorted Lists  
-26\. Remove Duplicates from Sorted Array  
 28\. Implement strStr()  
 38\. Count and Say  
 53\. Maximum Subarray  
-66\. Plus One  
-69\. Sqrt(x)  
 70\. Climbing Stairs  
 88\. Merge Sorted Array  
 101\. Symmetric Tree  
@@ -27,7 +24,6 @@ Problems can be found here: https://leetcode.com/problemset/all/
 118\. Pascal's Triangle  
 121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
-125\. Valid Palindrome  
 136\. Single Number  
 141\. Linked List Cycle  
 155\. Min Stack  
@@ -42,12 +38,10 @@ Problems can be found here: https://leetcode.com/problemset/all/
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
-217\. Contains Duplicate    
 234\. Palindrome Linked List  
 242\. Valid Anagram  
 268\. Missing Number  
 283\. Move Zeroes  
-326\. Power of Three  
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path    
