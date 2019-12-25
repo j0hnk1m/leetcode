@@ -1,21 +1,17 @@
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        if s is None or len(s) == 0:
-            return 0
-        
-        used = {}
-        window_start = 0
-        window_end = 0
-        ans = 0
+s = "abcabcbb"
 
-        while window_start != len(s) and window_end != len(s):
-            if s[window_end] not in used:
-                used[s[window_end]] = window_end
-                window_end += 1
-                if window_end - window_start > ans:
-                    ans = window_end - window_start
-            else:
-                del used[s[window_start]]
-                window_start += 1 
+used = {}
+start = 0
+end = 0
+max_len = 0
 
-        return ans
+while end < len(s):
+    if s[end] not in used:
+        used[s[end]] = 1
+        end += 1
+    else:
+        del used[s[start]]
+        start += 1
+    max_len = max(max_len, len(used))
+
+return max_len

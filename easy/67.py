@@ -1,22 +1,23 @@
-class Solution:
-	def addBinary(self, a: str, b: str) -> str:
-		carry = 0
-		binarysum = ''
+a = "11"
+b = "1"
 
-		while a or b:
-			if not a:
-				a = '0'
-			elif not b:
-				b = '0'
+carry = 0
+binarysum = ''
 
-			ab = int(a[-1]) + int(b[-1]) + carry
-			carry = ab // 2
-			ab %= 2
-			binarysum = ''.join([str(ab), binarysum])
-			a = a[:-1]
-			b = b[:-1]
+while a or b:
+	if not a:
+		a = '0'
+	elif not b:
+		b = '0'
 
-		if carry:
-			binarysum = ''.join([str(carry), binarysum])
+	ab = int(a[-1]) + int(b[-1]) + carry
+	carry = ab // 2
+	ab %= 2
+	binarysum = ''.join([str(ab), binarysum])
+	a = a[:-1]
+	b = b[:-1]
 
-		return binarysum
+if carry:
+	binarysum = ''.join([str(carry), binarysum])
+
+return binarysum

@@ -7,16 +7,14 @@ Problems can be found here: https://leetcode.com/problemset/all/
 2\. Add Two Numbers  
 3\. Longest Substring Without Repeating Characters  
 5\. Longest Palindromic Substring  
-7\. Reverse Integer    
+7\. Reverse Integer  
+11\. Container With Most Water  
 13\. Roman to Integer   
 14\. Longest Common Prefix  
 20\. Valid Parentheses  
 21\. Merge Two Sorted Lists  
-28\. Implement strStr()  
-38\. Count and Say  
 53\. Maximum Subarray  
 70\. Climbing Stairs  
-88\. Merge Sorted Array  
 101\. Symmetric Tree  
 102\. Binary Tree Level Order Traversal  
 104\. Maximum Depth of Binary Tree  
@@ -25,27 +23,16 @@ Problems can be found here: https://leetcode.com/problemset/all/
 121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
 136\. Single Number  
-141\. Linked List Cycle  
-155\. Min Stack  
-160\. Intersection of Two Linked Lists  
 169\. Majority Element   
 171\. Excel Sheet Column Number  
-172\. Factorial Trailing Zeroes  
 189\. Rotate Array  
-190\. Reverse Bits  
-191\. Number of 1 Bits  
-198\. House Robber  
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
-234\. Palindrome Linked List  
 242\. Valid Anagram  
 268\. Missing Number  
 283\. Move Zeroes  
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path    
-482\. License Key Formatting  
-753\. Cracking the Safe  
 771\. Jewels and Stones  
-1108\. Defanging an IP Address  

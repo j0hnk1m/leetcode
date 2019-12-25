@@ -1,20 +1,21 @@
-class Solution:
-	def findTheDifference(self, s: str, t: str) -> str:
-		hashmap = {}
-		for i in s:
-			if i in hashmap:
-				hashmap[i] += 1
-			else:
-				hashmap[i] = 1
+s = "abcd"
+t = "abcde"
 
-		for i in t:
-			if i in hashmap:
-				hashmap[i] -= 1
-			else:
-				hashmap[i] = 1
+hashmap = {}
+for i in s:
+	if i in hashmap:
+		hashmap[i] += 1
+	else:
+		hashmap[i] = 1
 
-		unique = ''
-		for k in hashmap.keys():
-			if hashmap[k] != 0:
-				unique = k
-		return unique
+for i in t:
+	if i in hashmap:
+		hashmap[i] -= 1
+	else:
+		hashmap[i] = 1
+
+unique = ''
+for k in hashmap.keys():
+	if hashmap[k] != 0:
+		unique = k
+return unique

@@ -1,13 +1,13 @@
-class Solution:
-    def lengthLongestPath(self, input: str) -> int:
-        max_len = 0
-        lvl = {-1: 0}
+input = "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"
 
-        for line in input.split('\n'):
-            depth = line.count('\t')
-            lvl[depth] = lvl[depth - 1] + len(line) - depth
+max_len = 0
+lvl = {-1: 0}
 
-            if '.' in line:
-                max_len = max(max_len, lvl[depth] + depth)
+for line in input.split('\n'):
+    depth = line.count('\t')
+    lvl[depth] = lvl[depth - 1] + len(line) - depth
 
-        return max_len
+    if '.' in line:
+        max_len = max(max_len, lvl[depth] + depth)
+
+return max_len
