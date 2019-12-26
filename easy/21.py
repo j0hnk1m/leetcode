@@ -10,29 +10,23 @@ l2.next = ListNode(3)
 l2.next.next = ListNode(4)
 
 
-dummy = ListNode(-1)
+dummy = ListNode(0)
 head = dummy
 
-while l1 and l2:
-    if l1.val < l2.val:
+while l1 or l2:
+    if l1 and l2:
+        if l1.val >= l2.val:
+            dummy.next = l2
+            l2 = l2.next
+        else:
+            dummy.next = l1
+            l1 = l1.next
+    elif l1:
         dummy.next = l1
-        l1 = l1.next
-    elif l1.val > l2.val:
-        dummy.next = l2
-        l2 = l2.next
+        break
     else:
-        dummy.next = l1
-        l1 = l1.next
-        dummy.next.next = l2
-        l2 = l2.next
-        dummy = dummy.next
+        dummy.next = l2
+        break
     dummy = dummy.next
-
-if not l1:
-    dummy.next = l2
-elif not l2:
-    dummy.next = l1
-else:
-    dummy.next = None
 
 return head.next
