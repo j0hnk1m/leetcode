@@ -32,6 +32,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 122\. Best Time to Buy and Sell Stock II  
 136\. Single Number  
 152\. Maximum Product Subarray  
+153\. Find Minimum in Rotated Sorted Array  
 169\. Majority Element   
 171\. Excel Sheet Column Number  
 189\. Rotate Array  
