@@ -47,6 +47,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 283\. Move Zeroes  
 300\. Longest Increasing Subsequence  
 322\. Coin Change  
+347\. Top K Frequent Elements  
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path    
