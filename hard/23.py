@@ -24,7 +24,7 @@ for i in sorted(self.nodes):
     p = p.next
 return head.next
 
-# heapq (adding all nodes to priority queue first, then adding them to ll)
+# heapq (adding all nodes to heap first, then adding them to ll)
 import heapq
 
 q = []
@@ -41,18 +41,21 @@ while q:
     cur = cur.next
 return head.next
 
-# heapq (pushing/popping simultaneously)
+# heapq (pushing/popping simultaneously) - o(nlogk) runtime, o(n) space
 import heapq
 
-q = [(node.val, i) for i, node in enumerate(lists) if node]
+q = []
+for i, node in enumerate(lists):
+    if node:
+        q.append((node.val, i))
 heapq.heapify(q)
 
 head = cur = ListNode(-1)
 while q:
-    val, idx = heapq.heappop(q)
+    val, i = heapq.heappop(q)
     cur.next = ListNode(val)
     cur = cur.next
-    lists[idx] = lists[idx].next
-    if lists[idx]:
-        heapq.heappush(q, (lists[idx].val, idx))
+    lists[i] = lists[i].next
+    if lists[i]:
+        heapq.heappush(q, (lists[i].val, i))
 return head.next
