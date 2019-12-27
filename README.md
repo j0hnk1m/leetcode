@@ -17,10 +17,11 @@ Problems can be found here: https://leetcode.com/problemset/all/
 21\. Merge Two Sorted Lists  
 23\. Merge k Sorted Lists  
 33\. Search in Rotated Sorted Array  
+39\. Combination Sum  
 48\. Rotate Image  
 49\. Group Anagrams  
-39\. Combination Sum  
 53\. Maximum Subarray  
+54\. Spiral Matrix  
 70\. Climbing Stairs  
 101\. Symmetric Tree  
 102\. Binary Tree Level Order Traversal  
@@ -36,6 +37,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
+238\. Product of Array Except Self  
 242\. Valid Anagram  
 268\. Missing Number  
 283\. Move Zeroes  
