@@ -43,6 +43,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 242\. Valid Anagram  
 268\. Missing Number  
 283\. Move Zeroes  
+300\. Longest Increasing Subsequence  
 322\. Coin Change  
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
