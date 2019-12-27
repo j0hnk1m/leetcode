@@ -31,6 +31,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
 136\. Single Number  
+152\. Maximum Product Subarray  
 169\. Majority Element   
 171\. Excel Sheet Column Number  
 189\. Rotate Array  
