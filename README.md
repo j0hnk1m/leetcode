@@ -31,6 +31,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 121\. Best Time to Buy and Sell Stock    
 122\. Best Time to Buy and Sell Stock II  
 136\. Single Number  
+141\. Linked List Cycle  
 152\. Maximum Product Subarray  
 153\. Find Minimum in Rotated Sorted Array  
 169\. Majority Element   
@@ -49,3 +50,4 @@ Problems can be found here: https://leetcode.com/problemset/all/
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path    
 771\. Jewels and Stones  
+1143\. Longest Common Subsequence
