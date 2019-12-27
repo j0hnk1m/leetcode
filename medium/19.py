@@ -31,17 +31,15 @@ return dummy.next
 if not head or not head.next:
     return
 
-dummy = ListNode(0)
+dummy = ListNode(-1)
 dummy.next = head
 p1 = p2 = dummy
 
 i = 0
-while p2:
-    if i >= n+1:
-        p1 = p1.next
-        p2 = p2.next
-    else:
+while p1:
+    p1 = p1.next
+    if i > n:
         p2 = p2.next
     i += 1
-p1.next = p1.next.next
+p2.next = p2.next.next
 return dummy.next
