@@ -45,6 +45,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 242\. Valid Anagram  
 268\. Missing Number  
 283\. Move Zeroes  
+295\. Find Median from Data Stream  
 300\. Longest Increasing Subsequence  
 322\. Coin Change  
 347\. Top K Frequent Elements  
