@@ -19,11 +19,8 @@ def maxPathSum(root: TreeNode) -> int:
 def pathSum(root):
     if not root:
         return 0
-    global res
     left = pathSum(root.left) 
     right = pathSum(root.right)
-    print(root.val)
-    print(res)
-    print()
+    global res
     res = max(res, root.val + left + right)
     return max(root.val + max(left, right), 0)
