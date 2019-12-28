@@ -23,6 +23,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 53\. Maximum Subarray  
 54\. Spiral Matrix  
 70\. Climbing Stairs  
+100\. Same Tree  
 101\. Symmetric Tree  
 102\. Binary Tree Level Order Traversal  
 104\. Maximum Depth of Binary Tree  
@@ -41,6 +42,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
+226\. Invert Binary Tree  
 238\. Product of Array Except Self  
 242\. Valid Anagram  
 268\. Missing Number  
