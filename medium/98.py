@@ -7,6 +7,21 @@ root = TreeNode(2)
 root.left = TreeNode(1)
 root.right = TreeNode(3)
 
+# recursive dfs
+def helper(node, lower=float('-inf'), upper=float('inf')):
+    if not root:
+        return True
+
+    val = node.val
+    if val >= upper or val <= lower:
+        return False
+    if not helper(node.left, lower, val):
+        return False
+    if not helper(node.right, val, upper):
+        return False
+    return True
+
+# iterative dfs
 if not root:
     return True
     

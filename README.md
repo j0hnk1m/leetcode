@@ -23,10 +23,12 @@ Problems can be found here: https://leetcode.com/problemset/all/
 53\. Maximum Subarray  
 54\. Spiral Matrix  
 70\. Climbing Stairs  
+98\. Validate Binary Search Tree  
 100\. Same Tree  
 101\. Symmetric Tree  
 102\. Binary Tree Level Order Traversal  
 104\. Maximum Depth of Binary Tree  
+105\. Construct Binary Tree from Preorder and Inorder Traversal  
 108\. Convert Sorted Array to Binary Search Tree  
 118\. Pascal's Triangle  
 121\. Best Time to Buy and Sell Stock    

@@ -10,7 +10,27 @@ root.right.left = TreeNode(4)
 root.right.right = TreeNode(5)
 
 def serialize(root):
+    def tostr(node):
+        if node:
+            vals.append(str(node.val))
+            tostr(node.left)
+            tostr(node.right)
+        else:
+            vals.append('#')
     
+    vals = []
+    tostr(root)
+    return ' '.join(vals)
 
 def deserialize(data):
-    nums = []
+    def totree():
+        val = next(vals)
+        if val == '#':
+            return None
+        node = TreeNode(int(val))
+        node.left = totree()
+        node.right = totree()
+        return node
+
+    vals = iter(data.split())
+    return totree()
