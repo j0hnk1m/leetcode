@@ -45,7 +45,10 @@ Problems can be found here: https://leetcode.com/problemset/all/
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
+208\. Implement Trie (Prefix Tree)  
 226\. Invert Binary Tree  
+230\. Kth Smallest Element in a BST  
+235\. Lowest Common Ancestor of a Binary Tree  
 238\. Product of Array Except Self  
 242\. Valid Anagram  
 268\. Missing Number  
