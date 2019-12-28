@@ -10,3 +10,20 @@ root.right.left = TreeNode(15)
 root.right.right = TreeNode(7)
 
 # recursive dfs 
+res = float('-inf')
+
+def maxPathSum(root: TreeNode) -> int:
+    pathSum(root)
+    return res
+    
+def pathSum(root):
+    if not root:
+        return 0
+    global res
+    left = pathSum(root.left) 
+    right = pathSum(root.right)
+    print(root.val)
+    print(res)
+    print()
+    res = max(res, root.val + left + right)
+    return max(root.val + max(left, right), 0)
