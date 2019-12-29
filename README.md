@@ -64,6 +64,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 350\. Intersection of Two Arrays II  
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path  
+424\. Longest Repeating Character Replacement  
 572\. Subtree of Another Tree  
 771\. Jewels and Stones  
 1143\. Longest Common Subsequence
