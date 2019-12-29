@@ -23,6 +23,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 53\. Maximum Subarray  
 54\. Spiral Matrix  
 70\. Climbing Stairs  
+79\. Word Search  
 98\. Validate Binary Search Tree  
 100\. Same Tree  
 101\. Symmetric Tree  
@@ -47,6 +48,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 206\. Reverse Linked List  
 208\. Implement Trie (Prefix Tree)  
 211\. Add and Search Word - Data Structure design  
+212\. Word Search II  
 226\. Invert Binary Tree  
 230\. Kth Smallest Element in a BST  
 235\. Lowest Common Ancestor of a Binary Tree  
