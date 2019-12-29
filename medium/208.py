@@ -57,7 +57,7 @@ class Trie:
         return '-' in trie
 
     def startsWith(self, prefix):
-        trie = self.tire
+        trie = self.trie
         for i in prefix:
             if i not in trie: 
                 return False
