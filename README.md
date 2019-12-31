@@ -23,6 +23,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 53\. Maximum Subarray  
 54\. Spiral Matrix  
 70\. Climbing Stairs  
+73\. Set Matrix Zeroes  
 76\. Minimum Window Substring  
 79\. Word Search  
 98\. Validate Binary Search Tree  
@@ -37,6 +38,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 122\. Best Time to Buy and Sell Stock II  
 124\. Binary Tree Maximum Path Sum  
 136\. Single Number  
+139\. Word Break  
 141\. Linked List Cycle  
 143\. Reorder List  
 152\. Maximum Product Subarray  
