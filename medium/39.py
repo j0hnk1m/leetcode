@@ -1,17 +1,16 @@
 candidates = [2,3,6,7]
 target = 7
 
-def dfs(path, nums, target, res):
-    if target < 0:
-        return
-    elif target == 0:
+# recursive/backtracking - o(t^n) runtime, o(t) space
+def cs(candidates, target, path):
+    if target == 0:
         res.append(path)
-        return 
-    
-    for i in range(len(nums)):
-        dfs(path+[nums[i]], nums[i:], target-nums[i], res)
+        return
+    for i in range(len(candidates)):
+        if target >= i:
+            cs(candidates[i:], target-candidates[i], path+[candidates[i]])
 
 res = []
 candidates.sort()
-dfs([], candidates, target, res)
+cs(candidates, target, [])
 return res

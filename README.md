@@ -22,10 +22,13 @@ Problems can be found here: https://leetcode.com/problemset/all/
 49\. Group Anagrams  
 53\. Maximum Subarray  
 54\. Spiral Matrix  
+55\. Jump Game  
+62\. Unique Paths  
 70\. Climbing Stairs  
 73\. Set Matrix Zeroes  
 76\. Minimum Window Substring  
 79\. Word Search  
+91\. Decode Ways  
 98\. Validate Binary Search Tree  
 100\. Same Tree  
 101\. Symmetric Tree  
@@ -46,12 +49,14 @@ Problems can be found here: https://leetcode.com/problemset/all/
 169\. Majority Element   
 171\. Excel Sheet Column Number  
 189\. Rotate Array  
+198\. House Robber  
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
 208\. Implement Trie (Prefix Tree)  
 211\. Add and Search Word - Data Structure design  
 212\. Word Search II  
+213\. House Robber II  
 226\. Invert Binary Tree  
 230\. Kth Smallest Element in a BST  
 235\. Lowest Common Ancestor of a Binary Tree  
@@ -65,9 +70,11 @@ Problems can be found here: https://leetcode.com/problemset/all/
 322\. Coin Change  
 347\. Top K Frequent Elements  
 350\. Intersection of Two Arrays II  
+377\. Combination Sum IV  
 387\. First Unique Character in a String  
 388\. Longest Absolute File Path  
 424\. Longest Repeating Character Replacement  
+509\. Fibonacci Number  
 572\. Subtree of Another Tree  
 647\. Palindromic Substrings  
 771\. Jewels and Stones  
