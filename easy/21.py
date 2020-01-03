@@ -9,24 +9,21 @@ l2 = ListNode(1)
 l2.next = ListNode(3)
 l2.next.next = ListNode(4)
 
-
-dummy = ListNode(0)
-head = dummy
-
+dummy = ListNode(-1)
+cur = dummy
 while l1 or l2:
     if l1 and l2:
         if l1.val >= l2.val:
-            dummy.next = l2
+            cur.next = l2
             l2 = l2.next
         else:
-            dummy.next = l1
+            cur.next = l1
             l1 = l1.next
     elif l1:
-        dummy.next = l1
+        cur.next = l1
         break
     else:
-        dummy.next = l2
+        cur.next = l2
         break
-    dummy = dummy.next
-
-return head.next
+    cur = cur.next
+return dummy.next
