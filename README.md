@@ -18,6 +18,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 23\. Merge k Sorted Lists  
 33\. Search in Rotated Sorted Array  
 39\. Combination Sum  
+42\. Trapping Rain Water  
 48\. Rotate Image  
 49\. Group Anagrams  
 53\. Maximum Subarray  
