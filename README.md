@@ -51,6 +51,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 171\. Excel Sheet Column Number  
 189\. Rotate Array  
 198\. House Robber  
+200\. Number of Islands  
 202\. Happy Number  
 204\. Count Primes  
 206\. Reverse Linked List  
@@ -59,6 +60,7 @@ Problems can be found here: https://leetcode.com/problemset/all/
 212\. Word Search II  
 213\. House Robber II  
 226\. Invert Binary Tree  
+227\. Basic Calculator II  
 230\. Kth Smallest Element in a BST  
 235\. Lowest Common Ancestor of a Binary Tree  
 238\. Product of Array Except Self  
