@@ -11,25 +11,18 @@ class WordDictionary:
         trie['-'] = True
     
     def search(self, word: str) -> bool:
-        def helper(t, w):
-            for h, i in enumerate(w):
-                if i not in t:
-                    if i == '.':
-                        if '-' in t:
-                            return False
-                        else:
-                            if any(helper(t, k+w[h+1:]) for k in t.keys()):
-                                return True
-                    else:
-                        return False
-                else:
-                    t = t[i]
-            if '-' in t:
-                return t['-']
-            return False
+        def find(word, trie):
+            if type(trie) is bool:
+                return False
+            elif not word:
+                return '-' in trie
+            
+            char, word = word[0], word[1:]
+            if char != '.':
+                return char in trie and find(word, trie[char])
+            return any(find(word, i) for i in trie.values() if i)
         
-        trie = self.trie
-        return helper(trie, word)
+        return find(word, self.trie)
 
 d = WordDictionary()
 d.addWord("bad")
@@ -39,5 +32,4 @@ d.search("pad")  # false
 d.search("bad")  # true
 d.search(".ad")  # true
 d.search("b..")  # true
-
-d.search("....")  # should be false...
+d.search('....')
