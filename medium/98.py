@@ -15,16 +15,12 @@ def helper(node, lower=float('-inf'), upper=float('inf')):
     val = node.val
     if val >= upper or val <= lower:
         return False
-    if not helper(node.left, lower, val):
-        return False
-    if not helper(node.right, val, upper):
-        return False
-    return True
+    return helper(node.left, lower, val) and helper(node.right, val, upper)
 
 # iterative dfs
 if not root:
     return True
-    
+
 stack = [(root, float('-inf'), float('inf')), ] 
 while stack:
     root, lower, upper = stack.pop()
