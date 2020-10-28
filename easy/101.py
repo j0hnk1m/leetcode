@@ -27,9 +27,9 @@ return self.dfs(root, root)
 
 
 def dfs(self, l, r):
-if not l and not r:
-    return True
-elif not l or not r:
-    return False
+    if not l and not r:
+        return True
+    elif not l or not r:
+        return False
 
-return (l.val == r.val) and (self.dfs(l.left, r.right) and self.dfs(l.right, r.left))
+    return (l.val == r.val) and (self.dfs(l.left, r.right) and self.dfs(l.right, r.left))

@@ -1,6 +1,6 @@
 height = [1,2,4,3]
 
-# brute force
+# brute force - o(n^2) runtime, o(1) space
 max_area = 0
 for i, h1 in enumerate(height):
     for j, h2 in enumerate(height[i:]):
@@ -9,7 +9,7 @@ for i, h1 in enumerate(height):
 
 return max_area
 
-# optimized
+# two pointers - o(n) runtime, o(1) space
 max_area = 0
 start = 0
 end = len(height) - 1
